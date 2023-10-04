@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root{
+    --cor01: hsl(31, 77%, 52%);
+    --cor02:hsl(184, 100%, 22%);
+    --cor03: hsl(179, 100%, 13%);
+    --cor04:hsla(0, 0%, 100%, 0.75);
+    --cor05:hsl(0, 0%, 95%);
+    --fonte01:'Lexend Deca', sans-serif;
+    --fonte02:'Big Shoulders Display', cursive;
+}
+
+html,body{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: var(--cor05);
+}
+
+.container-columns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+}
+
+.coluna{
+    width: 400px;
+    height: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteudo h1{
+    font-family: var(--fonte02);
+    color: var(--cor05);
+    padding-left: 50px;
+    font-size: 3.5em;
+}
+
+.conteudo img{
+    padding: 70px 0px 30px 50px;
+}
+
+.conteudo p{
+    font-family: var(--fonte01);
+    color: var(--cor04);
+    padding-top: 30px;
+    padding-left: 50px;
+    line-height: 35px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: normal;
+    width:400px;
+    height: 200px;
+}
+
+#amarelo{
+    background-color: var(--cor01);
+    border-radius: 10px 0px 0px 10px;
+}
+
+#azul{
+    background-color: var(--cor02);
+}
+
+#verde{
+    background-color: var(--cor03);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.botoes{
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 1.2em;
+    font-family: var(--fonte01);
+    cursor: pointer;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#botao-amarelo{
+    color: var(--cor01);
+}
+
+#botao-amarelo:hover{
+    background-color: var(--cor01);
+    border: 2px solid var(--cor05);
+    color:var(--cor05)
+}
+
+#botao-azul{
+    color: var(--cor02);
+}
+
+#botao-azul:hover{
+    background-color: var(--cor02);
+    border: 2px solid var(--cor05);
+    color:var(--cor05)
+}
+
+#botao-verde{
+    color: var(--cor03);
+}
+
+#botao-verde:hover{
+    background-color: var(--cor03);
+    border: 2px solid var(--cor05);
+    color:var(--cor05)
+}
+
+footer{
+    font-family: var(--fonte01);
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--cor01);
+}
+
+a:hover{
+    color: rgb(145, 145, 40);
+}

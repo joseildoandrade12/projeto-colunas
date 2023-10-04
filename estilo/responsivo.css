@@ -1,0 +1,24 @@
+@media (max-width:1205px){
+
+    body{
+        overflow: scroll;
+        max-width: 90%;
+    }
+
+    .container-columns{
+        flex-direction: column;
+        margin: 10px 0px 0px 10px;
+    }
+
+    footer{
+        font-size: 13px;
+    }
+
+    #amarelo{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #verde{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
