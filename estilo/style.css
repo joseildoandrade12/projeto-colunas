@@ -14,7 +14,7 @@
     --fonte02:'Big Shoulders Display', cursive;
 }
 
-html,body{
+body{
     min-width: 100vw;
     min-height: 100vh;
     background-color: var(--cor05);
